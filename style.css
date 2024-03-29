@@ -545,35 +545,36 @@ section.active .modal-box {
 
     /* TOPO DO SITE */
     .topo-do-site h1 {
-        font-size: 30px;
+        font-size: 200%;
     }
 
     section.topo-do-site {
-        padding: 20px 8%;
+        padding: 10% 8%;
     }
 
     .topo-do-site .img-topo-site img {
-        width: 500px;
+        width: 110%;
+        height: 110%;
     }
 
     /*especialidades*/
     section.especialidades {
-        padding: 40px 8%;
+        padding: 10% 8%;
     }
 
     h2.titulo {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 180%;
+        line-height: 130%;
     }
 
     /*sobre*/
     section.sobre {
-        padding: 80px 8%;
+        padding: 20% 8%;
     }
 
     .sobre .txt-sobre h2 {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 150%;
+        line-height: 120%;
         text-align: center;
     }
 
@@ -583,14 +584,14 @@ section.active .modal-box {
 
     /*portfolio*/
     section.portfolio h2 {
-        font-size: 30px;
+        font-size: 150%;
         text-align: center;
     }
 
     /*formulario*/
 
     section.formulario h2 {
-        font-size: 30px;
+        font-size: 150%;
     }
 
     /*modal*/
