@@ -192,7 +192,7 @@ section.topo-do-site .flex {
 }
 
 .menu-mobile.abrir-menu {
-    width: 70%;
+    width: 20%;
     display: block;
 }
 
@@ -535,6 +535,11 @@ section.active .modal-box {
     }
 
     .btn-abrir-menu i {
+        display: block;
+    }
+
+    .menu-mobile.abrir-menu {
+        width: 70%;
         display: block;
     }
 
