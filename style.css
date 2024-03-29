@@ -527,6 +527,8 @@ section.active .modal-box {
         flex-direction: column;
     }
 
+
+
     .topo-do-site .flex {
         flex-direction: column-reverse;
     }
@@ -552,12 +554,16 @@ section.active .modal-box {
     }
 
     section.topo-do-site {
-        padding: 10% 8%;
+        padding: 1% 8%;
     }
 
     .topo-do-site .img-topo-site img {
         width: 130%;
         height: 130%;
+    }
+
+    .foto-imagem {
+        max-width: 20rem;
     }
 
     /*especialidades*/
