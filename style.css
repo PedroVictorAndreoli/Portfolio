@@ -12,6 +12,10 @@ body {
     height: 100vh;
 }
 
+p {
+    text-align: justify;
+}
+
 .icone {
     min-width: 80px;
     min-height: 80px;
@@ -138,6 +142,7 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
     color: #fff;
     margin: 40px 0;
+    text-align: justify;
 }
 
 .topo-do-site .img-topo-site img {
@@ -459,4 +464,43 @@ section.active .modal-box {
     /* Coloca o overlay abaixo do modal */
     display: none;
     /* Inicialmente esconde o overlay */
+}
+
+
+@media screen and (max-width:1020px) {
+
+    /*geral*/
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    /*cabecalho*/
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    section.topo-do-site {
+        padding: 8%;
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 500px;
+    }
+
+    .txt-topo-site {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
 }
