@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Pedro Andreoli</title>
 </head>
+
 <body>
     <header>
         <div class="interface">
@@ -28,90 +32,130 @@
             </nav>
 
             <div class="btn-contato">
-                <a href="mailto:pvandreoli@gmail.com">
+                <a href="#formulario">
                     <button>Contact</button>
                 </a>
             </div>
         </div><!--Interface-->
     </header>
-    
     <main>
-     <section class="topo-do-site" id="topo-do-site">
-        <div class="interface">
-            <div class="flex">
-                <div class="txt-topo-site">
-                    <h1>FULLSTACK DEVELOPER<span>.</span></h1>
-                    <p>With three years of experience in the Information Technology sector, I am a diligent student pursuing a degree in Systems Analysis and Development at UTFPR (Federal University of Technology - Paraná). My expertise spans across Java, TypeScript, Kotlin, HTML and CSS, allowing me to develop robust and efficient solutions. I am dedicated to leveraging my skills and knowledge to deliver high-quality software solutions that meet your business requirements effectively.</p>
+        <div class="overlay">
+            <div class="modal-box" id="modalBox">
+                <i class="bi bi-check-circle"></i>
+                <h2>Completed</h2>
+                <h3>Your email has been successfully sent.</h3>
+                <div class="buttons">
+                    <button class="close-btn">Ok, Close</button>
+                </div>
+            </div>
+        </div>
+        <section class="topo-do-site" id="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>FULLSTACK DEVELOPER<span>.</span></h1>
+                        <p>With three years of experience in the Information Technology sector, I am a diligent student
+                            pursuing a degree in Systems Analysis and Development at UTFPR (Federal University of
+                            Technology - Paraná). My expertise spans across Java, TypeScript, Kotlin, HTML and CSS,
+                            allowing me to develop robust and efficient solutions. I am dedicated to leveraging my
+                            skills and knowledge to deliver high-quality software solutions that meet your business
+                            requirements effectively.</p>
                         <div class="btn-contato">
-                            <a href="mailto:pvandreoli@gmail.com">
+                            <a href="#formulario">
                                 <button>Get in touch</button>
                             </a>
                         </div>
                     </div>
-                <div class="img-topo-site">
-                    <img class="foto-imagem" src="images/foto.png" alt="">
+                    <div class="img-topo-site">
+                        <img class="foto-imagem" src="images/foto.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-     </section><!--Topo do Site-->
-      <section class="especialidades" id="especialidades">
-        <div class="interface">
-            <h2 class="titulo titulo-especialidade">MY <span>SPECIALTIES.</span></h2>
-            <div class="flex">
-                <div class="especialidades-box">
-                    <img class="icone paisagem" src="images/photo.png" alt="">
-                    <h3>Frontend</h3>
-                    <p>My specialties in frontend include HTML, CSS, JavaScript, and TypeScript, utilizing libraries such as Bootstrap, Material UI, and React</p>
+        </section><!--Topo do Site-->
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo titulo-especialidade">MY <span>SPECIALTIES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <img class="icone paisagem" src="images/photo.png" alt="">
+                        <h3>Frontend</h3>
+                        <p>My specialties in frontend include HTML, CSS, JavaScript, and TypeScript, utilizing libraries
+                            such as Bootstrap, Material UI, and React</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <img class="icone" src="images/web.png" alt="">
+                        <h3>Backend</h3>
+                        <p>My specialties in backend development include Java and Kotlin, along with the Spring Boot
+                            framework and expertise in Oracle, PostgreSQL, and MongoDB databases.</p>
+                    </div>
+                    <div class="especialidades-box">
+                        <img class="icone bug" src="images/bug.png" alt="">
+                        <h3>Tests</h3>
+                        <p>I have three years of experience working as a QA (Quality Assurance) professional, during
+                            which I specialized in API testing using Postman, testing in Linux environments, and
+                            automating desktop software using Delphi.</p>
+                    </div>
                 </div>
-                <div class="especialidades-box">
-                    <img class="icone" src="images/web.png" alt="">
-                    <h3>Backend</h3>
-                    <p>My specialties in backend development include Java and Kotlin, along with the Spring Boot framework and expertise in Oracle, PostgreSQL, and MongoDB databases.</p>
-                </div>
-                <div class="especialidades-box">
-                    <img class="icone bug" src="images/bug.png" alt="">
-                    <h3>Tests</h3>
-                    <p>I have three years of experience working as a QA (Quality Assurance) professional, during which I specialized in API testing using Postman, testing in Linux environments, and automating desktop software using Delphi.</p>
-                </div>
-            </div>
-        </div>
-      </section>
-      <section class="sobre" id="sobre">
-        <section class="interface">
-            <div class="flex">
-                <div class="img-sobre">
-                    <img src="images/foto2.png" alt="">
-                </div>
-                <div class="txt-sobre">
-                    <h2>Nice to meet you, I'm 
-                        <span>Pedro Andreoli.</span></h2>
-                        <p>Hello! I'm Pedro, a Test Analyst at VIASOFT, located in Pato Branco, Paraná, Brazil. Currently, I play a crucial role in the testing team, ensuring the quality and efficiency of the products we develop.</p>
-                        <p>With over 3 years of experience in this role, I have expertise in software testing documentation and execution. My responsibilities encompass a range of skills, including requirements analysis, test plan development, and manual testing execution.</p>
-                        <p>Throughout my journey, I have honed my skills in Automated Testing, using tools such as TestComplete. During a previous internship at the same company, I dedicated myself to test automation, developing analytical skills and gaining deep knowledge in software quality.</p>
-                    <div class="btn-social">
-                    <a href="https://www.instagram.com/predoandreoli/"><button><i class="bi bi-instagram"></i></button></a>
-                    <a href="https://www.linkedin.com/in/pedro-victor-andreoli-7265051a3/"><button><i class="bi bi-linkedin"></i></button></a>
-                    <a href="https://github.com/PedroVictorAndreoli"><button><i class="bi bi-github"></i></button></a>
-                </div>        
-            </div>      
             </div>
         </section>
-      </section>  
-      <section class="portfolio" id="portfolio">
-        <div class="interface">
-            <h2 class="titulo">MY <span>PORTFOLIO.</span></h2>
-            <div class="flex">
-                
-                <div class="img-port"></div>
-                <a href="https://github.com/PedroVictorAndreoli/TrabalhoWeb">
-                    <div class="img-port" style="background-image: url(images/controleFinanceiro.png);">
-                        <div class="overlay">Financial management with Spring Boot</div>
+        <section class="sobre" id="sobre">
+            <section class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/foto2.png" alt="">
                     </div>
+                    <div class="txt-sobre">
+                        <h2>Nice to meet you, I'm
+                            <span>Pedro Andreoli.</span>
+                        </h2>
+                        <p>Hello! I'm Pedro, a Test Analyst at VIASOFT, located in Pato Branco, Paraná, Brazil.
+                            Currently, I play a crucial role in the testing team, ensuring the quality and efficiency of
+                            the products we develop.</p>
+                        <p>With over 3 years of experience in this role, I have expertise in software testing
+                            documentation and execution. My responsibilities encompass a range of skills, including
+                            requirements analysis, test plan development, and manual testing execution.</p>
+                        <p>Throughout my journey, I have honed my skills in Automated Testing, using tools such as
+                            TestComplete. During a previous internship at the same company, I dedicated myself to test
+                            automation, developing analytical skills and gaining deep knowledge in software quality.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/predoandreoli/"><button><i
+                                        class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/pedro-victor-andreoli-7265051a3/"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/PedroVictorAndreoli"><button><i
+                                        class="bi bi-github"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MY <span>PORTFOLIO.</span></h2>
+                <div class="flex">
+
+                    <div class="img-port"></div>
+                    <a href="https://github.com/PedroVictorAndreoli/TrabalhoWeb">
+                        <div class="img-port" style="background-image: url(images/controleFinanceiro.png);">
+                            <div class="overlay1">Financial management with Spring Boot</div>
+                        </div>
                     </a>
-                <div class="img-port"></div>
+                    <div class="img-port"></div>
+                </div>
             </div>
-        </div>
-      </section>
+        </section>
+        <section id="formulario" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">TALK TO <span>ME.</span></h2>
+                <form id="contactForm" method="post" action="https://api.staticforms.xyz/submit">
+                    <input type="hidden" name="accessKey" value="9ac50fc5-b4fd-4411-850e-7c96aae19d98">
+                    <input type="text" name="name" placeholder="Your name:">
+                    <input type="text" name="email" placeholder="Your email:" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="SUBMIT"></div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="interface">
@@ -121,16 +165,23 @@
                         <img class="logo-imagem" src="images/logo.png" alt="">
                     </div>
                     <div class="btn-social">
-                        <a href="https://www.instagram.com/predoandreoli/"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="https://www.linkedin.com/in/pedro-victor-andreoli-7265051a3/"><button><i class="bi bi-linkedin"></i></button></a>
-                        <a href="https://github.com/PedroVictorAndreoli"><button><i class="bi bi-github"></i></button></a>
-                    </div> 
+                        <a href="https://www.instagram.com/predoandreoli/"><button><i
+                                    class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/pedro-victor-andreoli-7265051a3/"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/PedroVictorAndreoli"><button><i
+                                    class="bi bi-github"></i></button></a>
+                    </div>
                 </div>
             </div>
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:pvandreoli@gmail.com">pvandreoli@gmail.com</a></p>
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:pvandreoli@gmail.com">pvandreoli@gmail.com</a>
+                </p>
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="modal.js"></script>
 </body>
+
 </html>
