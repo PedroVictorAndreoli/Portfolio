@@ -235,6 +235,7 @@ section.especialidades {
 section.especialidades .flex {
     gap: 60px;
     justify-content: center;
+    align-items: center;
 }
 
 .titulo-especialidade {
@@ -317,6 +318,7 @@ section.portfolio {
 
 section.portfolio .flex {
     justify-content: space-around;
+    align-items: center;
 }
 
 .titulo-especialidade {
@@ -333,6 +335,7 @@ section.portfolio .flex {
     border-radius: 40px;
     transition: 2s;
     position: relative;
+
 }
 
 .img-port:hover {
