@@ -189,10 +189,12 @@ section.topo-do-site .flex {
     width: 0%;
     overflow: hidden;
     transition: .5s;
+    display: none;
 }
 
 .menu-mobile.abrir-menu {
     width: 70%;
+    display: block;
 }
 
 .menu-mobile.abrir-menu~.overlay-menu {
